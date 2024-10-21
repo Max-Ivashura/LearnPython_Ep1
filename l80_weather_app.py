@@ -74,7 +74,7 @@ class WeatherApp(QWidget):
 
     def get_weather(self):
 
-        api_key = "---Yours API Key---"
+        api_key = "--Yours API Key--"
         city = self.city_input.text()
         url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}"
 
